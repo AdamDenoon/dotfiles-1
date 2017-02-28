@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+
+brew update
+brew upgrade
+
+# common
+brew cask install google-chrome
+brew cask install firefox
+brew cask install flux
+brew cask install vlc
+brew cask install gpgtools
+brew cask install spotify
+
+# cloud
+brew cask install dropbox
+brew cask install owncloud
+brew cask install 1password
+
+# development
+brew cask install iterm2
+brew cask install atom
+brew cask install transmission
+brew cask install postgres
+brew cask install postico
+brew cask install docker
+brew cask install vagrant
+brew cask install vagrant-manager
+
+# tools
+brew cask install ubersicht
+brew cask install karabiner-elements
+brew cask install nvalt
+brew cask install virtualbox
+brew cask install slack
+brew cask install discord
+brew cask install daisydisk
+brew cask install tunnelblick
+brew cask install cyberduck
+# brew cask install superduper
+# brew cask install disablemonitor
+
+# quicklook plugins
+# brew cask install qlcolorcode
+# brew cask install qlstephen
+# brew cask install qlmarkdown
+# brew cask install quicklook-json
+# brew cask install qlprettypatch
+# brew cask install quicklook-csv
+# brew cask install betterzipql
+# brew cask install webpquicklook
+# brew cask install suspicious-package
