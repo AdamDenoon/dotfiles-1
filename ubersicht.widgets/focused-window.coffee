@@ -12,6 +12,8 @@ render: (output) ->
   """
 
 update: (output, el) ->
+    if output.replace(/\r?\n|\r/g, "") == 'Connection failed!'
+      output = ' '
     $(".foc span:first-child", el).text("  #{output}")
     $icon = $(".foc span.icon", el)
     $icon.removeClass().addClass("icon")

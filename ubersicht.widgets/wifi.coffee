@@ -40,7 +40,7 @@ style: """
     -webkit-font-smoothing: antialiased
     color: #d5c4a1
     font: 10px Input
-    right: 325px
+    right: 365px
     top: 6px
 """
 

@@ -3,22 +3,18 @@
 /*
     Author: Twily
     Description: Minimal flat styled tabs for Australis
-    Compitability: Firefox Nightly v31.0a1 - v32.0a1 (Australis)
-       CSS Variables were introduced to Firefox in v29.0a1
-    Website: http://twily.info/
+    Modified by: Koekeishiya
 */
 
 /*
-    Modified by: Koekeishiya
-    Compatibility: Firefox 48.0.2
-
-    Add styles to Stylish addon
+    Additional modifications by: brettinternet
+    Compatibility: Firefox 51.0.1
 */
 
 :root {
     /* TAB VARIABLES */
     --bg-nav: #101010;
-    --bg-light: #1b1b1b; --bg-dark: #1b1b1b; --bg-selected: #1b1b1b;
+    --bg-light: #1b1b1b; --bg-dark: #1b1b1b; --bg-selected: #292929;
     --fg-light: #d5c4a1; --fg-dark: #7f7f7f; --fg-selected: #d5c4a1 /*--fg-selected: #FF456F*/;
     --tab-triangle-correction: 0px; --tab-triangle-height: 16px;
     --tab-selected-border: #458588;
@@ -266,3 +262,7 @@ tabbrowser tabpanels, #appcontent > #content { background: var(--bg-light) !impo
 @-moz-document regexp("https?://(?!(localhost|twily.info|.*.4chan.org|.*.youtube.com)).*") {
     input, textarea { color: #222628 !important; -moz-appearance: none !important; }
 }*/
+
+/* Set reader toolbar color */
+#reader-toolbar { background: var(--bg-dark) !important; border-right-color: var(--bg-dark) !important; }
+#reader-toolbar .button { background-color: var(--bg-dark) !important; border-color: var(--bg-dark) !important; }
