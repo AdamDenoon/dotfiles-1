@@ -96,7 +96,8 @@ brew install dark-mode
 brew install htop
 brew install istats
 brew install vifm
-brew install screenfetch
+# brew install screenfetch
+brew install neofetch
 brew install telegraf
 
 # brew install ack

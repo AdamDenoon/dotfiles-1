@@ -11,21 +11,45 @@ After installing Homebrew, install some common Homebrew formulae with: `./brew.s
 
 Install casks with `./brew-cask.sh`.
 
+#### zsh
+1. install [prezto](https://github.com/sorin-ionescu/prezto)
+2. replace [.zpreztorc](./zsh/prezto-override)
+
+
+Set zsh as your default shell: `chsh -s /bin/zsh`
+
+###### Updating Prezto
+`cd .zprezto && git pull && git submodule update --init --recursive`
+
+### NPM
+```sh
+npm i -g node-gyp nodemon forever bower babel-cli gulp gulp-cli webpack webpack-dev-server
+```
+
+
 ## Other Apps
 Most of my apps are installed via `brew-cask.sh`.
 - Microsoft Remote Desktop
 
-#### Chrome Extensions
-- [Vimium for Chrome](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) - vim style browsing. Notably, the `f` to type the two char alias of any link.
+#### Chrome
+- [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) - vim style browsing. Notably, the `f` to type the two char alias of any link.
 - [Humble New Tab Page](https://chrome.google.com/webstore/detail/humble-new-tab-page/mfgdmpfihlmdekaclngibpjhdebndhdj?hl=en) - simple customization for new tab, see [configuration](./chrome/humble-tab-settings.json).
 - [Reddit Enhancement Suite](https://chrome.google.com/webstore/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb?hl=en-US)
 
+#### Firefox
+- [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/)
+  - Add [stylesheet](./firefox/gruvfox.less)
+
+
+### Themes
+- [Gruvbox](https://github.com/morhetz/gruvbox)
+- [Nord](https://github.com/arcticicestudio/nord)
+
 ### Credits
-This is a collection of my own configs and some found on the WWW.
+This is a collection of my own configs and some found on the web.
 - [mathiasbynens](https://github.com/mathiasbynens/dotfiles)
 - [skwp](https://github.com/skwp/dotfiles)
 - [Mac setup](http://sourabhbajaj.com/mac-setup/index.html)
-- [Gruvbox author](https://github.com/morhetz/gruvbox)
 - [Unix subreddit](https://reddit.com/r/unixporn)
 
 
