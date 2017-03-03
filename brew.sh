@@ -23,6 +23,8 @@ brew install bash-completion2
 # zsh
 brew install zsh
 brew install zsh-completions
+brew install zsh hub tmux reattach-to-user-namespace the_silver_searcher ghi
+brew install macvim --custom-icons --with-override-system-vim --with-lua --with-luajit
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
@@ -50,6 +52,49 @@ brew install wget --with-iri
 # brew install sfnt2woff-zopfli
 # brew install woff2
 
+# Development tools
+brew install git
+brew install node
+brew install yarn
+brew install ctags
+brew install couchdb
+brew install rbenv
+brew install heroku
+
+# Install other useful binaries.
+brew install kwm
+brew install imagemagick --with-webp
+brew install speedtest_cli
+brew install ssh-copy-id
+brew install tree
+brew install p7zip
+brew install dark-mode
+brew install htop
+brew install istats
+brew install midnight-commander
+brew install vifm
+# brew install screenfetch
+brew install neofetch
+brew install telegraf
+brew install shpotify
+
+# brew install ack
+# #brew install exiv2
+# brew install git-lfs
+# brew install lua
+# brew install lynx
+# brew install pigz
+# brew install pv
+# brew install rename
+# brew install rhino
+# brew install testssl
+# brew install vbindiff
+# brew install webkit2png
+# brew install zopfli
+
+# email
+# brew install mutt
+
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 # brew install aircrack-ng
 # brew install bfg
@@ -75,43 +120,5 @@ brew install wget --with-iri
 # brew install ucspi-tcp # `tcpserver` etc.
 # brew install xpdf
 # brew install xz
-
-# Development tools
-brew install git
-brew install node
-brew install yarn
-brew install ctags
-brew install couchdb
-brew install rbenv
-brew install heroku
-
-# Install other useful binaries.
-brew install kwm
-brew install imagemagick --with-webp
-brew install speedtest_cli
-brew install ssh-copy-id
-brew install tree
-brew install p7zip
-brew install dark-mode
-brew install htop
-brew install istats
-brew install vifm
-# brew install screenfetch
-brew install neofetch
-brew install telegraf
-
-# brew install ack
-# #brew install exiv2
-# brew install git-lfs
-# brew install lua
-# brew install lynx
-# brew install pigz
-# brew install pv
-# brew install rename
-# brew install rhino
-# brew install testssl
-# brew install vbindiff
-# brew install webkit2png
-# brew install zopfli
 
 brew cleanup

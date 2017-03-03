@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# (f)ind by (n)ame, usage: fn foo to find all files containing 'foo' in the name
+function fn() { ls **/*$1* }
+
 # Create a new directory and enter it
 function mkd() {
 	mkdir -p "$@" && cd "$_";

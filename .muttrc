@@ -1,0 +1,14 @@
+set imap_user = “`security find-generic-password -l mutt@$(hostname)|grep acct|perl -e '<stdin> =~ /=\"([^\"]+)\"/ && print $1'`”
+set imap_pass = "`security find-generic-password -w -l mutt@$(hostname)`"
+set smtp_url = “smtp://brettinternet@smtp.gmail.com:587/”
+set smtp_pass = $imap_pass
+set from = $imap_user
+set realname = “brett”
+set folder = “imaps://imap.gmail.com:993"
+set spoolfile = “+INBOX”
+set postponed = “+[Gmail]/Drafts”
+set header_cache = ~/.mutt/cache/headers
+set message_cachedir = ~/.mutt/cache/bodies
+set certificate_file = ~/.mutt/certificates
+set move = no
+set smtp_authenticators = ‘gssapi:login’

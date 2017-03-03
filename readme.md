@@ -1,31 +1,49 @@
 # Dot Files
 
-Here are my config and setup files for various features and tools on macOS.
+Here are my config and setup files for various features and tools on macOS. It's not all just 'rice'.
 
 ## Setup
 #### System Preferences
-To set preferred system preferences when setting up a new Mac, run: `./.macos`.
+To set preferred system preferences when setting up a new Mac, run
+```sh
+./.macos
+```
 
 #### Homebrew
-After installing Homebrew, install some common Homebrew formulae with: `./brew.sh`.
+1. Install Homebrew
+```sh
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
-Install casks with `./brew-cask.sh`.
+2. Install some common Homebrew formulae with
+```sh
+./brew.sh
+```
+
+3. Install casks with
+```sh
+./brew-cask.sh
+```
 
 #### zsh
 1. install [prezto](https://github.com/sorin-ionescu/prezto)
 2. replace [.zpreztorc](./zsh/prezto-override)
 
 
-Set zsh as your default shell: `chsh -s /bin/zsh`
+Set zsh as your default shell
+```sh
+chsh -s /bin/zsh
+```
 
 ###### Updating Prezto
-`cd .zprezto && git pull && git submodule update --init --recursive`
+```sh
+cd .zprezto && git pull && git submodule update --init --recursive
+```
 
 ### NPM
 ```sh
 npm i -g node-gyp nodemon forever bower babel-cli gulp gulp-cli webpack webpack-dev-server
 ```
-
 
 ## Other Apps
 Most of my apps are installed via `brew-cask.sh`.
@@ -39,7 +57,7 @@ Most of my apps are installed via `brew-cask.sh`.
 #### Firefox
 - [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/)
   - Add [stylesheet](./firefox/gruvfox.less)
-
+- [VimFX](https://addons.mozilla.org/en-us/firefox/addon/vimfx/developers) - Vimium alternative to Firefox. Don't use the Vimium port to Firefox, it's bad.
 
 ### Themes
 - [Gruvbox](https://github.com/morhetz/gruvbox)
