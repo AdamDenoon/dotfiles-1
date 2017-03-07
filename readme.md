@@ -49,6 +49,8 @@ npm i -g node-gyp nodemon forever bower babel-cli gulp gulp-cli webpack webpack-
 - additional zsh
 - vim
 - tmux
+- ranger
+- MPD for audio
 - aliases, functions, exports
 - gitconfig
 - mutt
