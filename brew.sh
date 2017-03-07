@@ -60,6 +60,11 @@ brew install ctags
 brew install couchdb
 brew install rbenv
 brew install heroku
+brew install postgresql
+
+# file manager
+brew install ranger
+brew install midnight-commander
 
 # Install other useful binaries.
 brew install kwm
@@ -71,8 +76,6 @@ brew install p7zip
 brew install dark-mode
 brew install htop
 brew install istats
-brew install midnight-commander
-brew install vifm
 # brew install screenfetch
 brew install neofetch
 brew install telegraf

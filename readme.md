@@ -45,6 +45,23 @@ cd .zprezto && git pull && git submodule update --init --recursive
 npm i -g node-gyp nodemon forever bower babel-cli gulp gulp-cli webpack webpack-dev-server
 ```
 
+## Other setup
+- additional zsh
+- vim
+- tmux
+- aliases, functions, exports
+- gitconfig
+- mutt
+- ctags
+- ranger
+- [wallpapers](./walls)
+- ubersicht widgets
+- iterm2
+- firefox extensions/custom css
+- chrome extensions
+- fonts
+- pycarddav
+
 ## Other Apps
 Most of my apps are installed via `brew-cask.sh`.
 - Microsoft Remote Desktop

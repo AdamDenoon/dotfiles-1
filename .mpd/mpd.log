@@ -1,0 +1,70 @@
+Mar 05 15:15 : exception: Failed to open /Users/Elk/.mpd/mpdstate: No such file or directory
+Mar 05 15:15 : config: inotify: auto_update was disabled. enable during compilation phase
+Mar 05 15:15 : config: option 'enabled' on line 27 was not recognized
+libc++abi.dylib: terminating with uncaught exception of type std::__1::system_error: Failed to access /Users/Elk/Music/iTunes/iTunes Media/Music: No such file or directory
+Mar 05 17:06 : config: inotify: auto_update was disabled. enable during compilation phase
+Mar 05 17:06 : config: option 'enabled' on line 27 was not recognized
+Mar 05 17:06 : update: added iTunes/iTunes Media/Music/Bon Iver/Bon Iver, Bon Iver (Limited Edition)/10 Beth _ Rest.mp3
+Mar 05 17:11 : client: [0] opened from 127.0.0.1:49650
+Mar 05 17:11 : client: [0] closed
+Mar 05 17:12 : client: [1] opened from 127.0.0.1:49721
+Mar 05 17:12 : ffmpeg/mp3: Could not update timestamps for skipped samples.
+Mar 05 17:13 : client: [1] closed
+Mar 05 17:14 : client: [2] opened from 127.0.0.1:49907
+Mar 05 17:15 : ffmpeg/mp3: Could not update timestamps for skipped samples.
+Mar 05 17:20 : ffmpeg/mp3: Could not update timestamps for discarded samples.
+Mar 05 17:20 : client: [2] closed
+Mar 05 17:20 : player: played "iTunes/iTunes Media/Music/Bon Iver/Bon Iver, Bon Iver (Limited Edition)/10 Beth _ Rest.mp3"
+Mar 05 17:21 : client: [3] opened from 127.0.0.1:50240
+Mar 05 17:22 : client: [3] closed
+Mar 05 17:22 : client: [4] opened from 127.0.0.1:50290
+Mar 05 17:22 : ffmpeg/mp3: Could not update timestamps for skipped samples.
+Mar 05 17:22 : ffmpeg/mp3: Could not update timestamps for skipped samples.
+Mar 05 17:22 : client: [4] closed
+Mar 05 17:22 : client: [5] opened from 127.0.0.1:50312
+Mar 05 17:24 : client: [5] closed
+Mar 05 17:25 : client: [6] opened from 127.0.0.1:50472
+Mar 05 17:25 : player: played "iTunes/iTunes Media/Music/Bon Iver/Bon Iver, Bon Iver (Limited Edition)/10 Beth _ Rest.mp3"
+Mar 05 17:25 : client: [6] closed
+Mar 05 17:25 : client: [7] opened from 127.0.0.1:50485
+Mar 05 17:25 : client: [7] closed
+Mar 05 17:26 : client: [8] opened from 127.0.0.1:50536
+Mar 05 17:26 : client: [8] closed
+Mar 05 17:27 : config: inotify: auto_update was disabled. enable during compilation phase
+Mar 05 17:27 : config: option 'enabled' on line 27 was not recognized
+Mar 05 17:27 : client: [0] opened from 127.0.0.1:50576
+Mar 05 17:27 : client: [0] closed
+Mar 05 17:27 : config: inotify: auto_update was disabled. enable during compilation phase
+Mar 05 17:27 : config: option 'enabled' on line 27 was not recognized
+Mar 05 17:28 : client: [0] opened from 127.0.0.1:50645
+Mar 05 17:28 : client: [0] closed
+Mar 05 17:30 : config: inotify: auto_update was disabled. enable during compilation phase
+Mar 05 17:30 : config: option 'enabled' on line 27 was not recognized
+Mar 05 17:30 : client: [0] opened from 127.0.0.1:50867
+Mar 05 17:30 : exception: No such directory
+Mar 05 17:30 : exception: No such directory
+Mar 05 17:30 : exception: No such directory
+Mar 05 17:30 : exception: No such directory
+Mar 05 17:30 : exception: No such directory
+Mar 05 17:30 : exception: No such directory
+Mar 05 17:30 : exception: No such directory
+Mar 05 17:30 : client: [0] closed
+Mar 05 17:30 : client: [1] opened from 127.0.0.1:50897
+Mar 05 17:30 : ffmpeg/mp3: Could not update timestamps for skipped samples.
+Mar 05 17:31 : client: [1] closed
+Mar 05 17:31 : client: [2] opened from 127.0.0.1:50956
+Mar 05 17:31 : client: [2] closed
+Mar 05 17:31 : player: played "iTunes/iTunes Media/Music/Bon Iver/Bon Iver, Bon Iver (Limited Edition)/10 Beth _ Rest.mp3"
+Mar 05 17:31 : config: inotify: auto_update was disabled. enable during compilation phase
+Mar 05 17:31 : config: option 'enabled' on line 27 was not recognized
+Mar 05 17:31 : client: [0] opened from 127.0.0.1:50986
+Mar 05 17:31 : client: [0] closed
+Mar 05 17:46 : client: [1] opened from 127.0.0.1:51848
+Mar 05 17:54 : player: played "iTunes/iTunes Media/Music/Bon Iver/Bon Iver, Bon Iver (Limited Edition)/10 Beth _ Rest.mp3"
+Mar 06 19:35 : config: inotify: auto_update was disabled. enable during compilation phase
+Mar 06 19:35 : config: option 'enabled' on line 27 was not recognized
+Mar 06 19:38 : client: [0] opened from 127.0.0.1:56502
+Mar 06 19:38 : client: [1] opened from 127.0.0.1:56511
+Mar 06 19:38 : ffmpeg/mp3: Could not update timestamps for skipped samples.
+Mar 06 19:39 : client: [1] closed
+Mar 06 19:57 : player: played "iTunes/iTunes Media/Music/Bon Iver/Bon Iver, Bon Iver (Limited Edition)/10 Beth _ Rest.mp3"
