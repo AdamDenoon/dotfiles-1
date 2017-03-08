@@ -2,7 +2,11 @@
 
 Here are my config and setup files for various features and tools on macOS. It's not all just 'rice'.
 
-## Setup
+## Automatic Setup
+~~```rake install```~~
+Not available yet, I'm still working on the `Rakefile`
+
+### Manual Setup
 #### System Preferences
 To set preferred system preferences when setting up a new Mac, run
 ```sh
@@ -28,6 +32,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 #### zsh
 1. install [prezto](https://github.com/sorin-ionescu/prezto)
 2. replace [.zpreztorc](./zsh/prezto-override)
+
+While I use Prezto, [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) is a more popular option.
 
 
 Set zsh as your default shell
@@ -78,9 +84,17 @@ Most of my apps are installed via `brew-cask.sh`.
   - Add [stylesheet](./firefox/gruvfox.less)
 - [VimFX](https://addons.mozilla.org/en-us/firefox/addon/vimfx/developers) - Vimium alternative to Firefox. Don't use the Vimium port to Firefox, it's bad.
 
+### Window managers - not suggested for laptops/smaller screens
+- [KWM](https://github.com/koekeishiya/kwm)
+- [HyperDock](https://bahoom.com/hyperdock/)
+
 ### Themes
 - [Gruvbox](https://github.com/morhetz/gruvbox)
 - [Nord](https://github.com/arcticicestudio/nord)
+
+## Other Resources
+### UI
+- [Reddit: Beautiful Unix UI setups](https://www.reddit.com/r/unixporn/)
 
 ### Credits
 This is a collection of my own configs and some found on the web.

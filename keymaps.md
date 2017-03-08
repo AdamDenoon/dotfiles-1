@@ -47,6 +47,24 @@ F10: exit MC
 
 ### Ranger
 ```
+` bookmarks
+~ single directory view
+S shell current directory
+
+Navigation:
+gg top
+G bottom
+^n new tab
+TAB switch tabs
+^w close tab
+^u up half
+^d down half
+
+yy copy
+dd cut
+pp paste
+po paste + overwrite
+
 Move around:
 up or k ____________ to go up
 ctrl-b or pageup ___ to go up a page

@@ -36,6 +36,7 @@ brew cask install discord
 brew cask install daisydisk
 brew cask install tunnelblick
 brew cask install cyberduck
+brew cask install keybase
 # brew cask install superduper
 # brew cask install disablemonitor
 

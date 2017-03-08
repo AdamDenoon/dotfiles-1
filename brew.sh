@@ -72,6 +72,7 @@ brew install imagemagick --with-webp
 brew install speedtest_cli
 brew install ssh-copy-id
 brew install tree
+brew install fzf
 brew install p7zip
 brew install dark-mode
 brew install htop
@@ -80,6 +81,8 @@ brew install istats
 brew install neofetch
 brew install telegraf
 brew install shpotify
+
+brew install rtv
 
 # brew install ack
 # #brew install exiv2
