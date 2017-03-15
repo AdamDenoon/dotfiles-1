@@ -2,6 +2,8 @@
 
 Here are my config and setup files for various features and tools on macOS. It's not all just 'rice'.
 
+My linux dot files are [here](https://github.com/brettinternet/dotfiles-linux).
+
 ## Automatic Setup
 ~~```rake install```~~
 Not available yet, I'm still working on the `Rakefile`
@@ -61,7 +63,6 @@ npm i -g node-gyp nodemon forever bower babel-cli gulp gulp-cli webpack webpack-
 - gitconfig
 - mutt
 - ctags
-- ranger
 - [wallpapers](./walls)
 - ubersicht widgets
 - iterm2
@@ -69,6 +70,11 @@ npm i -g node-gyp nodemon forever bower babel-cli gulp gulp-cli webpack webpack-
 - chrome extensions
 - fonts
 - pycarddav
+- Use Karabiner-Elements (installed from `brew cask`) to remap `capslock` key to function as `escape`
+
+### Fonts
+- [FiraCode with ligatures](https://github.com/tonsky/FiraCode)
+
 
 ## Other Apps
 Most of my apps are installed via `brew-cask.sh`.

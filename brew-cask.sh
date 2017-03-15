@@ -20,7 +20,6 @@ brew cask install 1password
 brew cask install iterm2
 brew cask install atom
 brew cask install transmission
-brew cask install postgres
 brew cask install postico
 brew cask install docker
 brew cask install vagrant
@@ -29,7 +28,7 @@ brew cask install vagrant-manager
 # tools
 brew cask install ubersicht
 brew cask install karabiner-elements
-brew cask install nvalt
+brew cask install mactex
 brew cask install virtualbox
 brew cask install slack
 brew cask install discord
