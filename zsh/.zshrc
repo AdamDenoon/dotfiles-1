@@ -1,4 +1,3 @@
-# For use when I am using OHMYZSH instead of prezto
 
 export ZSH=$HOME/.oh-my-zsh
 
@@ -8,8 +7,8 @@ HYPHEN_INSENSITIVE="true"
 # ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 
-# https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins
-plugins=(git npm node yarn postgres sudo yarn brew colorize emoji docker)
+
+plugins=(git npm docker node postgres osx python sudo yarn zsh-syntax-highlighting)
 
 
 source $ZSH/oh-my-zsh.sh
@@ -20,16 +19,18 @@ export LANG=en_US.UTF-8
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 export RANGER_LOAD_DEFAULT_RC=FALSE
 export PATH=$PATH:/usr/bin/sensors
-fpath=(/usr/local/share/zsh-completions $fpath)
 
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='atom'
-else
-  export EDITOR='mvim'
-fi
+export EDITOR=vim
+export VISUAL=vim
+
 
 # Custom
+source "$HOME/.aliases"
+source "$HOME/.functions"
+
+alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
+
+
 alias l="ls -Fh"
 alias la="ls -AFh"
 alias ll="ls -l"
@@ -37,11 +38,13 @@ alias rr="ranger"
 
 alias ip="curl ipinfo.io/ip"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
+alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
 
 alias gs="git status"
 alias ga="git add ."
 alias gc="git commit"
 alias gp="git push"
+alias gfm="git pull"
 
 alias p="pm2"
 alias dk="docker"
@@ -50,3 +53,9 @@ alias dkpa="docker ps -a"
 alias dki="docker images"
 
 alias git=hub
+alias gist="gist -c"
+
+
+# if [ -e ~/.secrets ]; then
+  # source ~/.secrets
+# fi
