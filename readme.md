@@ -5,6 +5,7 @@ Here are my config and setup files for various features and tools on macOS. It's
 My linux dot files are [here](https://github.com/brettinternet/dotfiles-linux).
 
 ## Automatic Setup
+
 ~~```rake install```~~
 Not available yet, I'm still working on the `Rakefile`
 
@@ -32,10 +33,14 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ```
 
 #### zsh
-1. install [prezto](https://github.com/sorin-ionescu/prezto)
-2. replace [.zpreztorc](./zsh/prezto-override)
+##### A. Prezto
+    1. install [prezto](https://github.com/sorin-ionescu/prezto)
+    2. replace [.zpreztorc](./zsh/prezto-override)
+    3. link [.zshrc.zlocal](./zsh/.zshrc.zlocal)
 
-While I use Prezto, [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) is a more popular option.
+##### B. Oh-my-zsh
+    1. install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+    2. replace [.zshrc](./zsh/.zshrc)
 
 
 Set zsh as your default shell
@@ -44,11 +49,13 @@ chsh -s /bin/zsh
 ```
 
 ###### Updating Prezto
+
 ```sh
 cd .zprezto && git pull && git submodule update --init --recursive
 ```
 
 ### NPM
+
 ```sh
 npm i -g node-gyp nodemon forever bower babel-cli gulp gulp-cli webpack webpack-dev-server
 ```
@@ -78,6 +85,7 @@ npm i -g node-gyp nodemon forever bower babel-cli gulp gulp-cli webpack webpack-
 
 ## Other Apps
 Most of my apps are installed via `brew-cask.sh`.
+
 - Microsoft Remote Desktop
 
 #### Chrome
