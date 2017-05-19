@@ -32,7 +32,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ./brew-cask.sh
 ```
 
-#### zsh
+#### ZSH
 ##### A. Prezto
     1. install [prezto](https://github.com/sorin-ionescu/prezto)
     2. replace [.zpreztorc](./zsh/prezto-override)
@@ -53,6 +53,11 @@ chsh -s /bin/zsh
 ```sh
 cd .zprezto && git pull && git submodule update --init --recursive
 ```
+
+### Vim
+1. install [Maximum-Awesome](https://github.com/square/maximum-awesome)
+2. replace [.vimrc.local](./vim/.vimrc.local)
+
 
 ### NPM
 
