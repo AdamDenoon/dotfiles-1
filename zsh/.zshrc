@@ -39,12 +39,6 @@ alias ip="curl ipinfo.io/ip"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
 
-alias gs="git status"
-alias ga="git add ."
-alias gc="git commit"
-alias gp="git push"
-alias gfm="git pull"
-
 alias p="pm2"
 alias dk="docker"
 alias dkp="docker ps"

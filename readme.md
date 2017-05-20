@@ -1,12 +1,12 @@
 # Dot Files
 
-Here are my config and setup files for various features and tools on macOS. It's not all just 'rice'.
+Here are my config and setup files for various features and tools on macOS. It's not all just 'rice'. 🍚
 
 My linux dot files are [here](https://github.com/brettinternet/dotfiles-linux).
 
 ## Automatic Setup
 
-~~```rake install```~~
+~~`rake install`~~
 Not available yet, I'm still working on the `Rakefile`
 
 ### Manual Setup
@@ -41,7 +41,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ##### B. Oh-my-zsh
     1. install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
     2. replace [.zshrc](./zsh/.zshrc)
-
+    3. install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 Set zsh as your default shell
 ```sh
