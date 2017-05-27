@@ -4,7 +4,7 @@ Here are my config and setup files for various features and tools on macOS. It's
 
 My linux dot files are [here](https://github.com/brettinternet/dotfiles-linux).
 
-## Automatic Setup
+### Automatic Setup
 
 ~~`rake install`~~
 Not available yet, I'm still working on the `Rakefile`
