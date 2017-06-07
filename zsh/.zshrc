@@ -7,7 +7,7 @@ HYPHEN_INSENSITIVE="true"
 COMPLETION_WAITING_DOTS="true"
 
 
-plugins=(git npm docker node postgres osx python sudo yarn zsh-syntax-highlighting)
+plugins=(git npm docker node tmux postgres osx python sudo yarn zsh-syntax-highlighting)
 
 
 source $ZSH/oh-my-zsh.sh
@@ -16,7 +16,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_US.UTF-8
 export SSH_KEY_PATH="~/.ssh/rsa_id"
-export RANGER_LOAD_DEFAULT_RC=FALSE
+# export RANGER_LOAD_DEFAULT_RC=FALSE
 export PATH=$PATH:/usr/bin/sensors
 
 export EDITOR=vim
