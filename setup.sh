@@ -245,7 +245,6 @@ declare -a FILES_TO_SYMLINK=(
   '.exports'
   '.functions'
   '.gemrc'
-  '.gitconfig'
   '.gitignore'
   '.hushlogin'
   '.wgetrc'
@@ -317,6 +316,13 @@ main() {
 
 # Symlink dotfiles
 main
+
+
+# gitconfig settings
+echo -n "Copying gitconfig.."
+mv -f ~/.gitconfig ~/dotfiles_old/
+cp $HOME/dotfiles/.gitconfig ~/.gitconfig
+echo "done"
 
 
 ###############################################################################
