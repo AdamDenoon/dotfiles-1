@@ -4,10 +4,15 @@ Here are my config and setup files for various features and tools on macOS. It's
 
 My linux dot files are [here](https://github.com/brettinternet/dotfiles-linux).
 
-### Automatic Setup
+### Guided Setup
 
-~~`rake install`~~
-Not available yet, I'm still working on the `Rakefile`
+```
+./setup.sh
+```
+
+<!-- ### Automatic Setup -->
+<!-- ~~`rake install`~~ -->
+<!-- Not available yet, I'm still working on the `Rakefile` -->
 
 ### Manual Setup
 #### System Preferences
@@ -58,13 +63,6 @@ cd .zprezto && git pull && git submodule update --init --recursive
 1. install [Maximum-Awesome](https://github.com/square/maximum-awesome)
 2. replace [.vimrc.local](./vim/.vimrc.local)
 
-
-### NPM
-
-```sh
-npm i -g node-gyp nodemon forever bower babel-cli gulp gulp-cli webpack webpack-dev-server
-```
-
 ## Other setup
 - additional zsh
 - vim
@@ -83,6 +81,13 @@ npm i -g node-gyp nodemon forever bower babel-cli gulp gulp-cli webpack webpack-
 - fonts
 - pycarddav
 - Use Karabiner-Elements (installed from `brew cask`) to remap `capslock` key to function as `escape`
+
+#### NPM
+
+```sh
+npm i -g node-gyp nodemon forever bower babel-cli gulp gulp-cli webpack webpack-dev-server
+```
+
 
 ### Fonts
 - [FiraCode with ligatures](https://github.com/tonsky/FiraCode)
@@ -110,6 +115,7 @@ Most of my apps are installed via `brew-cask.sh`.
 ### Themes
 - [Gruvbox](https://github.com/morhetz/gruvbox)
 - [Nord](https://github.com/arcticicestudio/nord)
+- [OneDark](https://github.com/joshdick/onedark.vim)
 
 ## Other Resources
 ### UI
