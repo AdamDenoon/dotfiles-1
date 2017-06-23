@@ -1,2 +1,4 @@
 Plugin 'mxw/vim-jsx'
 Plugin 'morhetz/gruvbox'
+Plugin 'joshdick/onedark.vim'
+Plugin 'vim-airline/vim-airline'
