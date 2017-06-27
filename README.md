@@ -39,14 +39,14 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 #### ZSH
 ##### A. Prezto
-    1. install [prezto](https://github.com/sorin-ionescu/prezto)
-    2. replace [.zpreztorc](./zsh/prezto-override)
-    3. link [.zshrc.zlocal](./zsh/.zshrc.zlocal)
+1. install [prezto](https://github.com/sorin-ionescu/prezto)
+2. replace [.zpreztorc](./zsh/prezto-override)
+3. link [.zshrc.zlocal](./zsh/.zshrc.zlocal)
 
 ##### B. Oh-my-zsh
-    1. install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-    2. replace [.zshrc](./zsh/.zshrc)
-    3. install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+1. install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+2. replace [.zshrc](./zsh/.zshrc)
+3. install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 Set zsh as your default shell
 ```sh
