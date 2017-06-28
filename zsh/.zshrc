@@ -45,7 +45,7 @@ alias dkp="docker ps"
 alias dkpa="docker ps -a"
 alias dki="docker images"
 
-alias git=hub
+# alias git=hub
 alias gist="gist -c"
 
 
