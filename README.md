@@ -85,7 +85,7 @@ cd .zprezto && git pull && git submodule update --init --recursive
 #### NPM
 
 ```sh
-npm i -g node-gyp nodemon forever bower babel-cli gulp gulp-cli webpack webpack-dev-server
+npm i -g node-gyp n instant-markdown-d live-server
 ```
 
 

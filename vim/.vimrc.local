@@ -7,7 +7,7 @@ inoremap jj <ESC>
 set hlsearch
 "nmap <leader>hl :let @/ = ""<CR>
 
-let g:airline_theme='onedark'
+" let g:airline_theme='onedark'
 
 " gui settings
 if (&t_Co == 256 || has('gui_running'))
@@ -26,18 +26,17 @@ hi NonText ctermbg=none
 set fillchars+=vert:│
 
 
-filetype plugin indent on
-" show existing tab with 4 spaces width
-set tabstop=4
-" " when indenting with '>', use 4 spaces width
-set shiftwidth=4
-" " On pressing tab, insert 4 spaces
-set expandtab
-set softtabstop=4
+" filetype plugin indent on
+" set tabstop=4
+" set shiftwidth=4
+" set expandtab
+" set softtabstop=4
 
 " Nerdtree
-let NERDTreeShowHidden=1
+let NERDTreeShowHidden = 1
 
+" Plugins
+let g:gitgutter_enabled = 1
 
 " Disambiguate ,a & ,t from the Align plugin, making them fast again.
 "

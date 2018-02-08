@@ -18,7 +18,7 @@ export LANG=en_US.UTF-8
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 # export RANGER_LOAD_DEFAULT_RC=FALSE
 export PATH=$PATH:/usr/bin/sensors
-
+export PATH="/usr/local/sbin:$PATH"
 export EDITOR=vim
 export VISUAL=vim
 
@@ -52,3 +52,8 @@ alias gist="gist -c"
 # if [ -e ~/.secrets ]; then
   # source ~/.secrets
 # fi
+
+eval "$(rbenv init -)"
+
+# added by travis gem
+[ -f /Users/elk/.travis/travis.sh ] && source /Users/elk/.travis/travis.sh
